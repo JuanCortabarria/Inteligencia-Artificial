@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "practico4"
+version = "0.1.0"
+description = "Practico 4 para la clase de Inteligencia Artificial en Universidad ORT Uruguay"
+authors = ["AlejoGarat"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+gymnasium = "^0.29.1"
+numpy = "^2.0.1"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.1"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

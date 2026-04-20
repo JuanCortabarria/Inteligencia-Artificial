@@ -9,7 +9,7 @@
 | Practico2 | Air Conditioning | ✅ Completado |
 | Practico3 | Search Algorithms | ✅ Completado |
 | Practico4 | Eight Puzzle | ✅ Completado |
-| Practico5 | MDPs | ❌ Incompleto |
+| Practico5 | MDPs | ✅ Completado |
 | Practico6 | Q-Learning | ❌ Incompleto |
 | Practico7 | Game Playing | 🟡 Parcial |
 | Ejercicio MDP | Monte Carlo y Value Iteration | ❌ Incompleto |

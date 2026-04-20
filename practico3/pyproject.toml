@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "practico3"
+version = "0.1.0"
+description = "Practico 3 para la clase de Inteligencia Artificial en Universidad ORT Uruguay"
+authors = ["AlejoGarat"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.10"
+gymnasium = "^0.29.1"
+pygame = "^2.5.2"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.1"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "practico0"
+version = "0.1.0"
+description = "Practico 0 para la clase de Inteligencia Artificial en Universidad ORT Uruguay"
+authors = ["AlejoGarat"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.0.1"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.1"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

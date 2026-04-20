@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "practico6"
+version = "0.1.0"
+description = "Practico 6 para la clase de Inteligencia Artificial en Universidad ORT Uruguay"
+authors = ["AlejoGarat"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.10"
+gymnasium = "^1.0.0"
+numpy = "^2.1.2"
+pygame = "^2.6.1"
+matplotlib = "^3.9.2"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.1"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
